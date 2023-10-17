@@ -1,3 +1,4 @@
+import ImageSvg from '@pdt/assets/images/image-50.svg';
 import EditScreenInfo from '@pdt/components/EditScreenInfo';
 import { Text, View } from '@pdt/components/Themed';
 import { StyleSheet } from 'react-native';
@@ -6,6 +7,7 @@ export default function TabOneScreen() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Tab One</Text>
+      <ImageSvg />
       <View
         style={styles.separator}
         lightColor="#eee"

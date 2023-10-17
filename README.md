@@ -1,6 +1,9 @@
 # Repo init
 
-**Source: [Setting up React Navite: Expo + Typescript + Eslint (Airbnb) + Prettier (github.com)](https://gist.github.com/yovany-lg/104ed47e74d1ba64f68d79a3e5f76e91)**
+**Source:**
+
+* [Setting up React Navite: Expo + Typescript + Eslint (Airbnb) + Prettier (github.com)](https://gist.github.com/yovany-lg/104ed47e74d1ba64f68d79a3e5f76e91)
+* [kristerkari/react-native-svg-transformer: Import SVG files in your React Native project the same way that you would in a Web application. (github.com)](https://github.com/kristerkari/react-native-svg-transformer)
 
 **Run the following commands respectively:**
 
@@ -40,7 +43,7 @@
     "@typescript-eslint/no-use-before-define": "off",
     "eqeqeq": "off",
     "global-require": "off",
-    "import/extensions": ["error", "never"],
+    "import/extensions": "off",
     "import/no-unresolved": "off",
     "import/prefer-default-export": "off",
     "no-shadow": "off",
@@ -64,7 +67,10 @@
 
 **Preventing bad code commit with lint-staged and husky:**
 
-Install by running `npx mrm lint-staged`
+Install by running
+
+* `npx mrm lint-staged`
+* `yarn add -D husky`
 
 Then add/edit the following properties at the end of your `package.json`
 

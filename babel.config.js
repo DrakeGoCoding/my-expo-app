@@ -8,8 +8,9 @@ module.exports = function (api) {
       [
         'module-resolver',
         {
+          root: ['.'],
+          extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
           alias: {
-            '@pdt/*': ['./*'],
             '@pdt/app': ['./app'],
             '@pdt/assets': ['./assets'],
             '@pdt/components': ['./components'],
