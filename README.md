@@ -61,3 +61,23 @@
   }
 }
 ```
+
+**Preventing bad code commit with lint-staged and husky:**
+
+Install by running `npx mrm lint-staged`
+
+Then add/edit the following properties at the end of your `package.json`
+
+```json
+{
+  "private": true,
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": "eslint"
+  }
+}
+```
