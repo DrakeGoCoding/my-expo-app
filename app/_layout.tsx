@@ -1,3 +1,4 @@
+/* eslint-disable camelcase */
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import {
   DarkTheme,
@@ -14,7 +15,7 @@ export {
   ErrorBoundary
 } from 'expo-router';
 
-export const UNSTABLE_SETTINGS = {
+export const unstable_settings = {
   // Ensure that reloading on `/modal` keeps a back button present.
   initialRouteName: '(tabs)'
 };

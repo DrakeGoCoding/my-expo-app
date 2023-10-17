@@ -14,7 +14,11 @@ module.exports = function (api) {
             '@pdt/app': ['./app'],
             '@pdt/assets': ['./assets'],
             '@pdt/components': ['./components'],
-            '@pdt/constants': ['./constants']
+            '@pdt/constants': ['./constants'],
+            '@pdt/contexts': ['./contexts'],
+            '@pdt/models': ['./models'],
+            '@pdt/services': ['./services'],
+            '@pdt/utils': ['./utils']
           }
         }
       ]

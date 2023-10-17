@@ -10,7 +10,7 @@
     "test": "jest --watchAll",
     "prepare": "husky install",
     "lint": "eslint . --ext .js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
-    "prettier": "npx prettier --write ./app ./components ./constants"
+    "prettier": "npx prettier --write ./app ./components ./constants ./contexts ./models ./models ./services ./utils"
   },
   "jest": {
     "preset": "jest-expo"

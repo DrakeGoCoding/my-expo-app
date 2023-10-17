@@ -24,7 +24,7 @@
     "prettier",
     "plugin:prettier/recommended"
   ],
-  "ignorePatterns": ["*.config.[jt]s"],
+  "ignorePatterns": ["*.config.[jt]s", "*.d.ts"],
   "plugins": ["@typescript-eslint", "react", "prettier"],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
